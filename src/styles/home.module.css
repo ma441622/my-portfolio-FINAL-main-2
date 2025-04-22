@@ -1,0 +1,46 @@
+.home {
+  background-image: url("../assets/background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 20px;
+  color: white;
+  text-align: center;
+}
+
+.welcomeMessage {
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  width: 90%;
+  color: rgb(127, 17, 53);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.welcomeMessage h1 {
+  font-size: 4rem;
+  margin-bottom: 0.5rem;
+}
+
+.welcomeMessage p {
+  font-size: 1.7rem;
+  margin: 0.3rem 0;
+}
+
+.message {
+  font-size: 1.2rem;
+  margin-top: 0.5rem; /* Adds space between the welcome message and the description */
+  max-width: 600px;
+  width: 90%;
+  background-color: rgb(127, 17, 53, 0.3);
+}
+
+.messagetwo {
+  font-size: 1rem;
+  max-width: 400px;
+  color: rgb(127, 17, 53, 0.5);
+}

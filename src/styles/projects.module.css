@@ -1,0 +1,54 @@
+.projectsContainer {
+  padding: 45px 20px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(255, 113, 168, 0.3);
+}
+
+.heading {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: rgb(127, 17, 53);
+}
+
+.subheading {
+  font-size: 2rem;
+  margin-bottom: 10px;
+
+  color: rgb(206, 59, 108);
+  background-color: rgba(243, 235, 235, 0.2);
+}
+
+.project {
+  margin-bottom: 60px;
+}
+
+.imageGroup {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.projectImage {
+  height: 200px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.description {
+  font-size: 1.1rem;
+  margin: 15px 0;
+  color: #444;
+}
+
+.link {
+  color: #3192fa;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,23 @@
+.nav {
+  background-color: #9f2654;
+  color: white;
+  padding: 0.7rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.links a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
